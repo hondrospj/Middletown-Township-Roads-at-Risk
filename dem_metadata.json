@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Middletown Township DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Middletown Township boundary, adaptively resampled to 17.6 ft pixels to keep the browser-delivered raster within operational size limits, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 5.372149675507433,
+  "pixelSizeFeet": 17.625162977316094,
+  "adaptiveResolution": true,
+  "width": 3636,
+  "height": 4401,
+  "nodata": -999999,
+  "minMeters": 0,
+  "maxMeters": 83.821,
+  "meanMeters": 19.745,
+  "stdDevMeters": 16.608,
+  "minFeet": 0,
+  "maxFeet": 275.00328083879504,
+  "webMercatorBounds": [
+    -8254395.08597,
+    4912088.0697440915,
+    -8234861.949749855,
+    4935730.900466
+  ],
+  "leafletBounds": [
+    [
+      40.3168218094403,
+      -74.1504926688826
+    ],
+    [
+      40.4785595089691,
+      -73.9750364339982
+    ]
+  ],
+  "files": {
+    "demCog": "middletown_township_dem_5ft_cog.tif",
+    "hillshadeCog": "middletown_township_hillshade_cog.tif",
+    "hillshadePng": "middletown_township_hillshade.png",
+    "boundaryGeojson": "middletown_township_boundary.geojson"
+  }
+}
